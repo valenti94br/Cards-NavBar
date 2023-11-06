@@ -1,5 +1,5 @@
 $(".flex-slice").each(function () {
-    $(this).hover(function ({
+    $(this).hover(function(){
         $(this).find('.flex-title').css({
             transform: 'rotate(0deg)',
             top: '10%'
@@ -15,4 +15,5 @@ $(".flex-slice").each(function () {
 $(this).find('.flex-about').css({
     opacity: '0'
 });
-    });
+    })
+});
